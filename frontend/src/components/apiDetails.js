@@ -9,7 +9,8 @@ export default function ApiDetails(){
             <br/>
             <b>Features:</b>
             <ul>
-                <li>Live API End-Point Testing <a href="#" target="_blank">here</a></li>
+                <li>Get Direct API Calls <a href="https://45cslh.deta.dev/get/isalman.xyz" target="_blank">https://45cslh.deta.dev/get/isalman.xyz</a> <small style={{color: "black"}}>(Eg. https://45cslh.deta.dev/get/<span style={{color: "brown"}}>&lt;Domain_Name&gt;)</span></small></li>
+                <li>Live API End-Point Testing <a href="https://45cslh.deta.dev/docs" target="_blank">here</a></li>
                 <li>Cross-Origin Support <small className="text-warning">(No <span className="text-secondary">CORS</span> problem)</small></li>
                 <li>Open-Source</li>
                 <li>No API Call Limits</li>

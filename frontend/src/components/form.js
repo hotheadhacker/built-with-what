@@ -47,7 +47,7 @@ function Form() {
             setSpace(false)
             setBuffer(<img src={preloader} alt="Preloader" />)
             console.log("clicked");
-            axios.get('http://127.0.0.1:8000/get/' + data)
+            axios.get('https://45cslh.deta.dev/get/' + data)
                 .then((response) => {
                     console.log(response.data);
                     // console.log(response.status);

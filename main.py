@@ -1,6 +1,10 @@
 from fastapi import FastAPI
 import builtwith
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.encoders import jsonable_encoder
+from fastapi.responses import JSONResponse
+from pydantic import BaseModel
+import json
 
 app = FastAPI()
 
@@ -32,4 +36,8 @@ async def root():
 async def root(url: str):
     newUrl = 'http://' + url
     print(newUrl)
-    return builtwith.builtwith(newUrl)
+    
+    data = builtwith.builtwith(newUrl)
+    
+    return JSONResponse(content=builtwith.builtwith(newUrl))
+    # return {"message": "Hello World"}

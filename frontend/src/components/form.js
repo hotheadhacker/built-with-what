@@ -47,7 +47,7 @@ function Form() {
             setSpace(false)
             setBuffer(<img src={preloader} alt="Preloader" />)
             console.log("clicked");
-            axios.get('https://45cslh.deta.dev/get/' + data)
+            axios.get('https://glacial-taiga-01626.herokuapp.com/get/' + data)
                 .then((response) => {
                     console.log(response.data);
                     // console.log(response.status);

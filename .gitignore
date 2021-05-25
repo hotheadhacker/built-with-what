@@ -9,9 +9,12 @@ __pycache__/
 # Deta 
 deta
 
+# netlify
+netlify
+
 # Distribution / packaging
 .Python
-build/
+# build/
 develop-eggs/
 dist/
 downloads/

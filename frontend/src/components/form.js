@@ -112,21 +112,21 @@ function Form() {
              {/* {domainURL} */}
              <div style={{paddingLeft: "5%"}}>
              
-             {apiData["programming-languages"] ? <p className = "fontOsawld"><i className="fa fa-laptop mx-2"></i>Programming Languages: {apiData["programming-languages"]}</p> : null}
-             {apiData["programming-languages"] ? <p className = "fontOsawld"><i className="fa fa-hourglass-1 mx-2"></i>CDN: {apiData["cdn"]}</p>: null}
-             {apiData["font-scripts"]?  <p className = "fontOsawld"><i className="fa fa-font mx-2"></i>Fonts: {apiData["font-scripts"]}</p>: null}
-             {apiData["javascript-frameworks"] ? <p className = "fontOsawld"><i className="fa fa-bolt mx-2"></i>Javascript Frameworks: {apiData["javascript-frameworks"]}</p>: null}
-             {apiData["javascript-graphics"] ? <p className = "fontOsawld"><i className="fa fa-file-movie-o mx-2"></i>Javascript Graphics: {apiData["javascript-graphics"]}</p>: null}
-             {apiData["web-frameworks"] ? <p className = "fontOsawld"><i className="fa fa-compass mx-2"></i>Web Frameworks: {apiData["web-frameworks"]}</p>: null}
-             {apiData["web-servers"] ? <p className = "fontOsawld"><i className="fa fa-server mx-2"></i>Web Server: {apiData["web-servers"]}</p>: null}
-             {apiData["blogs"] ? <p className = "fontOsawld"><i className="fas fa-blog mx-2"></i>Blogs: {apiData["blogs"]}</p>: null}
-             {apiData["cms"] ? <p className = "fontOsawld"><i className="fa fa-indent mx-2"></i>CMS: {apiData["cms"]}</p>: null}
-             {apiData["ecommerce"] ? <p className = "fontOsawld"><i className="fa fa-dollar mx-2"></i>E-commerce: {apiData["ecommerce"]}</p>: null}
-             {apiData["photo-galleries"] ? <p className = "fontOsawld"><i className="fa fa-photo mx-2"></i>Photo Galleries: {apiData["photo-galleries"]}</p>: null}
+             {apiData["programming-languages"] ? <p className = "fontOsawld"><i className="fa fa-laptop mx-2"></i><span className="text-info">Programming Languages:</span> {apiData["programming-languages"]}</p> : null}
+             {apiData["programming-languages"] ? <p className = "fontOsawld"><i className="fa fa-hourglass-1 mx-2"></i><span className="text-warning">CDN:</span> {apiData["cdn"]}</p>: null}
+             {apiData["font-scripts"]?  <p className = "fontOsawld"><i className="fa fa-font mx-2"></i><span className="text-info">Fonts: </span>{apiData["font-scripts"]}</p>: null}
+             {apiData["javascript-frameworks"] ? <p className = "fontOsawld"><i className="fa fa-bolt mx-2"></i><span className="text-warning">Javascript Frameworks: </span>{apiData["javascript-frameworks"]}</p>: null}
+             {apiData["javascript-graphics"] ? <p className = "fontOsawld"><i className="fa fa-file-movie-o mx-2"></i><span className="text-warning">Javascript Graphics:</span> {apiData["javascript-graphics"]}</p>: null}
+             {apiData["web-frameworks"] ? <p className = "fontOsawld"><i className="fa fa-compass mx-2"></i><span className="text-primary">Web Frameworks: </span> {apiData["web-frameworks"]}</p>: null}
+             {apiData["web-servers"] ? <p className = "fontOsawld"><i className="fa fa-server mx-2"></i><span className="text-primary">Web Server: </span>{apiData["web-servers"]}</p>: null}
+             {apiData["blogs"] ? <p className = "fontOsawld"><i className="fas fa-blog mx-2"></i><span className="text-info">Blogs:</span> {apiData["blogs"]}</p>: null}
+             {apiData["cms"] ? <p className = "fontOsawld"><i className="fa fa-indent mx-2"></i><span className="text-secondary">CMS: </span>{apiData["cms"]}</p>: null}
+             {apiData["ecommerce"] ? <p className = "fontOsawld"><i className="fa fa-dollar mx-2"></i><span className="text-warning">E-commerce:</span> {apiData["ecommerce"]}</p>: null}
+             {apiData["photo-galleries"] ? <p className = "fontOsawld"><i className="fa fa-photo mx-2"></i><span className="text-info">Photo Galleries: </span>{apiData["photo-galleries"]}</p>: null}
 
-             {apiData["tag-managers"] ? <p className = "fontOsawld"><i className="fa fa-tags mx-2"></i>Tags Manager: {apiData["tag-managers"]}</p>: null}
-             {apiData["analytics"] ? <p className = "fontOsawld"><i className="fa fa-bar-chart mx-2"></i>Analytics: {apiData["analytics"]}</p>: null}
-             {apiData["miscellaneous"] ? <p className = "fontOsawld"><i className="fa fa-plus mx-2"></i>Miscellaneous: {apiData["miscellaneous"]}</p>: null}
+             {apiData["tag-managers"] ? <p className = "fontOsawld"><i className="fa fa-tags mx-2"></i><span className="text-danger">Tags Manager:</span> {apiData["tag-managers"]}</p>: null}
+             {apiData["analytics"] ? <p className = "fontOsawld"><i className="fa fa-bar-chart mx-2"></i><span className="text-danger">Analytics:</span> {apiData["analytics"]}</p>: null}
+             {apiData["miscellaneous"] ? <p className = "fontOsawld"><i className="fa fa-plus mx-2"></i><span className="text-info">Miscellaneous:</span> {apiData["miscellaneous"]}</p>: null}
 
              </div>
          </div> 
